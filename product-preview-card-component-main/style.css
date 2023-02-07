@@ -111,9 +111,10 @@ body {
     border-radius: 0.6rem;
     color: white;
     background-color: hsl(158, 36%, 37%);
-    outline: 0;
+    outline: none;
     font-weight: 700;
     font-size: .9rem;
+    border: none;
 }
 
 .btn-container button:hover {
@@ -136,14 +137,6 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-
-
-/* media queries  */
-/* @media (min-width: 1440px) {
-    .main {
-        width: 800px;
-    }
-} */
 
 @media screen and (max-width: 580px) {
     .section {
