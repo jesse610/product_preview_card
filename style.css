@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 99%;
+    min-height: 98vh;
     margin: auto;
 }
 
@@ -139,12 +139,13 @@ body {
 }
 
 @media screen and (max-width: 580px) {
-    .section {
+    /* .section {
         height: auto;
         padding: 2rem 1rem;
-    }
+    } */
 
     .main {
+        max-width: 90%;
         display: block;
     }
 
